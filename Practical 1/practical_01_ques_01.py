@@ -1,15 +1,25 @@
 # Practical 1 - Question 1: Variable creation and naming rules
 
-name = "Asha"
+# I have used valid variable names and checked why the invalid names give errors.
+
+name = 'Asha'
 age = 18
 marks = 91.5
-city = "Pune"
+city = 'Pune'
+
+# I display the result clearly.
 print(name, age, marks, city)
-# Names cannot start with digits, use keywords, or contain a hyphen.
+
+# I repeat this step for each value in the sequence.
 for code in ['1name = "Asha"', 'class = 18', 'my-name = "Asha"']:
+    # I use try-except so the expected error does not stop the example.
     try:
-        compile(code, "<example>", "exec")
+        compile(code, '<example>', 'exec')
     except SyntaxError:
-        print(code, "-> SyntaxError")
-first_name, class_number, my_name = "Asha", 12, "Asha"
+        print(code, '-> SyntaxError')
+first_name = 'Asha'
+class_number = 12
+my_name = 'Asha'
+
+# I display the result clearly.
 print(first_name, class_number, my_name)

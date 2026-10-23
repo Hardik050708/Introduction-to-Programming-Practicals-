@@ -1,11 +1,25 @@
 # Practical 4 - Question 7: Count digits by parity
 
-n = abs(int(input("Integer: ")))
-total = even = odd = 0
-# Zero itself has one even digit.
+# I count each digit and check whether that digit is even or odd.
+
+# Zero has one digit, and that digit is even.
+
+# First, I take the required input from the user.
+n = abs(int(input('Integer: ')))
+
+# I start total at zero before counting or adding anything.
+total = 0
+even = total
+odd = total
+
+# I check this condition to decide which step should run.
 if n == 0:
-    total = even = 1
+    total = 1
+    even = total
+
+# I repeat the steps until the stopping condition is reached.
 while n > 0:
+    # I find the remainder and store the answer in digit.
     digit = n % 10
     total += 1
     if digit % 2 == 0:
@@ -13,6 +27,8 @@ while n > 0:
     else:
         odd += 1
     n //= 10
-print("Total digits:", total)
-print("Even digits:", even)
-print("Odd digits:", odd)
+
+# I display the result clearly.
+print('Total digits:', total)
+print('Even digits:', even)
+print('Odd digits:', odd)

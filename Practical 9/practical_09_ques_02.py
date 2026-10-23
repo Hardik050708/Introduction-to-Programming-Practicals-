@@ -1,9 +1,15 @@
 # Practical 9 - Question 2: Function parameters
 
-# Pass the entered values as arguments and return their sum.
+# I pass the two input values to a function that returns their sum.
+
+# This function takes two numbers and returns their sum.
 def add(a, b):
+    # I return the result so it can be used by the calling code.
     return a + b
 
-x = float(input("First number: "))
-y = float(input("Second number: "))
-print("Sum:", add(x, y))
+# First, I take the required input from the user.
+x = float(input('First number: '))
+y = float(input('Second number: '))
+
+# I display the result clearly.
+print('Sum:', add(x, y))

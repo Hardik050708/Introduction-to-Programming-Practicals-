@@ -1,7 +1,10 @@
 # Practical 8 - Question 4: Add and update entries
 
-student = {"name": "Asha", "age": 18, "marks": 92}
+# I add a new key and replace the value of an existing key.
 
-student["city"] = "Mumbai"  # A new key adds an entry.
-student["marks"] = 95  # An existing key replaces its value.
+student = {'name': 'Asha', 'age': 18, 'marks': 92}
+student['city'] = 'Mumbai'
+student['marks'] = 95
+
+# I display the result clearly.
 print(student)
