@@ -4,15 +4,15 @@ Python solutions for Practicals 1–10, organized into separate folders with num
 
 | Folder | Topic |
 | --- | --- |
-| [Practical 1](Practical%201) | Variables, constants, and data types |
-| [Practical 2](Practical%202) | Input/output and arithmetic expressions |
-| [Practical 3](Practical%203) | Conditional statements |
-| [Practical 4](Practical%204) | Loops and patterns |
-| [Practical 5](Practical%205) | Loop control statements |
-| [Practical 6](Practical%206) | Arrays, matrices, and NumPy |
-| [Practical 7](Practical%207) | Lists, tuples, indexing, and slicing |
-| [Practical 8](Practical%208) | Dictionaries |
-| [Practical 9](Practical%209) | Functions and recursion |
+| [Practical 01](Practical%2001) | Variables, constants, and data types |
+| [Practical 02](Practical%2002) | Input/output and arithmetic expressions |
+| [Practical 03](Practical%2003) | Conditional statements |
+| [Practical 04](Practical%2004) | Loops and patterns |
+| [Practical 05](Practical%2005) | Loop control statements |
+| [Practical 06](Practical%2006) | Arrays, matrices, and NumPy |
+| [Practical 07](Practical%2007) | Lists, tuples, indexing, and slicing |
+| [Practical 08](Practical%2008) | Dictionaries |
+| [Practical 09](Practical%2009) | Functions and recursion |
 | [Practical 10](Practical%2010) | String operations |
 
 Each `.py` file is a standalone solution. For example, `practical_01_ques_01.py` is Practical 1, Question 1. Practical 7 includes extra slicing exercises as Questions 13–20.
