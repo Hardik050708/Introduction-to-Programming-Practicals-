@@ -1,32 +1,34 @@
 # Practical 1 - Question 9: Data type based calculator
 
-# I add two numeric values or join two strings after checking their types.
+# I take two values as text because input() returns strings.
+first_input = input("First value (number or text): ")
+second_input = input("Second value (number or text): ")
 
-from ast import literal_eval
-
-# I try to identify the entered value before choosing the operation.
-def detect(text):
-    # I use try-except so the expected error does not stop the example.
+# I try integer conversion first, then float, and otherwise keep the text.
+try:
+    first_value = int(first_input)
+except ValueError:
     try:
-        return literal_eval(text)
-    except (ValueError, SyntaxError):
-        return text
+        first_value = float(first_input)
+    except ValueError:
+        first_value = first_input
 
-# First, I take the required input from the user.
-a = detect(input('First value (number or text): '))
-b = detect(input('Second value (number or text): '))
+try:
+    second_value = int(second_input)
+except ValueError:
+    try:
+        second_value = float(second_input)
+    except ValueError:
+        second_value = second_input
 
-# I display the result clearly.
-print('Types:', type(a).__name__, type(b).__name__)
+print("Types:", type(first_value).__name__, type(second_value).__name__)
 
-# I check this condition to decide which step should run.
-if type(a) in (int, float) and type(b) in (int, float):
-    # I add the values and store the answer in addition_result.
-    addition_result = a + b
-    print('Sum:', addition_result)
-elif isinstance(a, str) and isinstance(b, str):
-    # I add the values and store the answer in concatenation.
-    concatenation = a + b
-    print('Concatenation:', concatenation)
+# Two numbers are added, while two strings are joined together.
+if isinstance(first_value, (int, float)) and isinstance(second_value, (int, float)):
+    answer = first_value + second_value
+    print("Sum:", answer)
+elif isinstance(first_value, str) and isinstance(second_value, str):
+    answer = first_value + second_value
+    print("Concatenation:", answer)
 else:
-    print('Invalid combination: enter two numbers or two strings.')
+    print("Invalid combination: enter two numbers or two strings.")

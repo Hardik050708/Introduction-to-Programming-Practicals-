@@ -1,30 +1,25 @@
 # Practical 9 - Question 9: Functions calling functions
 
 # I keep input, processing and output in separate functions.
-
-# I keep the input step in its own function.
 def read_numbers():
-    # I start with an empty entered numbers list.
-    entered_numbers = []
-    # I convert each separated input into a number before storing it.
-    for number_text in input('Numbers separated by spaces: ').split():
-        entered_numbers.append(float(number_text))
-    # I return the result so it can be used by the calling code.
-    return list(entered_numbers)
+    numbers = list(map(float, input("Numbers separated by spaces: ").split()))
+    return numbers
 
-# I keep the calculation separate from input and output.
+
 def process(numbers):
-    return sum(numbers)
+    total = sum(numbers)
+    return total
 
-# I use this function only to show the final result.
+
 def display(total):
-    print('Total:', total)
+    print("Total:", total)
 
-# I call the required functions here in the correct order.
+
+# I call each function in order from the main function.
 def main():
     numbers = read_numbers()
     total = process(numbers)
     display(total)
 
-# I call main() to start the complete program.
+
 main()

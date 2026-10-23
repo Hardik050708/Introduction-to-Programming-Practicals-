@@ -1,33 +1,32 @@
 # Practical 2 - Question 9: Three subject grading
 
-# I validate the marks before calculating the total, percentage and grade.
+# I take the marks of three subjects, each out of 100.
+marks = input("Marks of three subjects (out of 100 each): ").split()
 
-# I start with an empty marks list.
-marks = []
-
-# I convert each separated input into a number before storing it.
-for number_text in input('Marks of three subjects (out of 100 each): ').split():
-    marks.append(float(number_text))
-invalid_marks = False
-
-# I repeat this step for each value in the sequence.
-for m in marks:
-    if m < 0 or m > 100:
-        invalid_marks = True
-
-# I check the input before using it in the calculation.
-if len(marks) != 3 or invalid_marks:
-    print('Enter exactly three marks from 0 to 100.')
+if len(marks) != 3:
+    print("Enter exactly three marks from 0 to 100.")
 else:
-    total = sum(marks)
-    # I divide the total by the number of subjects to get the percentage.
-    percentage = total / 3
-    if percentage >= 90:
-        grade = 'A'
-    elif percentage >= 75:
-        grade = 'B'
-    elif percentage >= 50:
-        grade = 'C'
+    first_marks = float(marks[0])
+    second_marks = float(marks[1])
+    third_marks = float(marks[2])
+
+    # I check each mark directly instead of using a loop.
+    if not (0 <= first_marks <= 100 and 0 <= second_marks <= 100 and 0 <= third_marks <= 100):
+        print("Enter exactly three marks from 0 to 100.")
     else:
-        grade = 'Fail'
-    print(f'Total: {total:g}/300\nPercentage: {percentage:.2f}%\nGrade: {grade}')
+        total = first_marks + second_marks + third_marks
+        percentage = total / 3
+
+        # I use the grade ranges given in the manual's grading example.
+        if percentage >= 90:
+            grade = "A"
+        elif percentage >= 75:
+            grade = "B"
+        elif percentage >= 50:
+            grade = "C"
+        else:
+            grade = "Fail"
+
+        print(f"Total: {total:g}/300")
+        print(f"Percentage: {percentage:.2f}%")
+        print("Grade:", grade)

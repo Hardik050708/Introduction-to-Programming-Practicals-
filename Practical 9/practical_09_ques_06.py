@@ -1,23 +1,27 @@
 # Practical 9 - Question 6: Process lists with a function
 
-# I write one function to find the sum and largest value for different lists.
-
-# I calculate the total and largest value inside this function.
+# I define a function to calculate the sum and largest item in a list.
 def analyze(numbers):
-    if not numbers:
-        return (0, None)
-    # I start total at zero before counting or adding anything.
+    if len(numbers) == 0:
+        return 0, None
+
     total = 0
     largest = numbers[0]
-    # I repeat this step for each value in the sequence.
     for number in numbers:
-        total += number
+        total = total + number
         if number > largest:
             largest = number
-    # I return the result so it can be used by the calling code.
-    return (total, largest)
+    return total, largest
 
-# I repeat this step for each value in the sequence.
-for values in ([10, 20, 30], [-5, -2, -9], []):
-    total, largest = analyze(values)
-    print(f'{values}: sum={total}, largest={largest}')
+# I call the same function for different lists to show its reuse.
+first_list = [10, 20, 30]
+first_total, first_largest = analyze(first_list)
+print(f"{first_list}: sum={first_total}, largest={first_largest}")
+
+second_list = [-5, -2, -9]
+second_total, second_largest = analyze(second_list)
+print(f"{second_list}: sum={second_total}, largest={second_largest}")
+
+empty_list = []
+empty_total, empty_largest = analyze(empty_list)
+print(f"{empty_list}: sum={empty_total}, largest={empty_largest}")

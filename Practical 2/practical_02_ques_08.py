@@ -1,15 +1,14 @@
 # Practical 2 - Question 8: Multiple inputs in one line
 
-# I separate the three inputs before finding their sum and product.
+# I take all three inputs in one line, as asked in the manual.
+a, b, c = input("Enter three numbers: ").split()
+a = float(a)
+b = float(b)
+c = float(c)
 
-# I start with an empty entered numbers list.
-entered_numbers = []
+# I find the sum and product after converting the inputs.
+total = a + b + c
+product = a * b * c
 
-# I convert each separated input into a number before storing it.
-for number_text in input('Enter three numbers: ').split():
-    entered_numbers.append(float(number_text))
-a, b, c = entered_numbers
-
-# I display the result clearly.
-print(f'Sum: {a + b + c:g}')
-print(f'Product: {a * b * c:g}')
+print(f"Sum: {total:g}")
+print(f"Product: {product:g}")

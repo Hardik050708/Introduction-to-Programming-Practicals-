@@ -1,13 +1,18 @@
 # Practical 7 - Question 11: Iteration and summation
 
-# I use a loop to display and add the items of both sequence types.
+numbers = [10, 20, 30]
+fixed_numbers = (10, 20, 30)
 
-# I repeat this step for each value in the sequence.
-for values in ([10, 20, 30], (10, 20, 30)):
-    # I start total at zero before counting or adding anything.
-    total = 0
-    # I repeat this step for each value in the sequence.
-    for value in values:
-        print(value, end=' ')
-        total += value
-    print('\nSum:', total)
+# This question asks for iteration, so I use a loop for the list.
+list_total = 0
+for number in numbers:
+    print(number, end=" ")
+    list_total = list_total + number
+print("\nSum:", list_total)
+
+# I repeat the same calculation for the tuple to compare iteration.
+tuple_total = 0
+for number in fixed_numbers:
+    print(number, end=" ")
+    tuple_total = tuple_total + number
+print("\nSum:", tuple_total)

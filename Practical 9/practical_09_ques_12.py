@@ -1,59 +1,50 @@
 # Practical 9 - Question 12: Student result functions
 
-# I combine separate functions for reading marks, calculating results and grading.
-
-# I read and validate the marks before returning them.
+# This function takes marks for three subjects and checks their range.
 def read_marks():
-    # I start with an empty marks list.
-    marks = []
-    # I convert each separated input into a number before storing it.
-    for number_text in input('Marks of three subjects (0-100 each): ').split():
-        marks.append(float(number_text))
-    invalid_marks = False
-    # I repeat this step for each value in the sequence.
-    for mark in marks:
-        if mark < 0 or mark > 100:
-            invalid_marks = True
-    # I check the input before using it in the calculation.
-    if len(marks) != 3 or invalid_marks:
-        raise ValueError('Enter exactly three marks from 0 to 100.')
-    # I return the result so it can be used by the calling code.
-    return marks
+    values = input("Marks of three subjects (0-100 each): ").split()
+    if len(values) != 3:
+        raise ValueError("Enter exactly three marks from 0 to 100.")
 
-# I return both the total and percentage for the given marks.
+    first = float(values[0])
+    second = float(values[1])
+    third = float(values[2])
+    if not (0 <= first <= 100 and 0 <= second <= 100 and 0 <= third <= 100):
+        raise ValueError("Enter exactly three marks from 0 to 100.")
+    return [first, second, third]
+
+
+# I return the total and percentage so another function can use them.
 def calculate(marks):
-    # I start total at zero before counting or adding anything.
-    total = 0
-    # I repeat this step for each value in the sequence.
-    for mark in marks:
-        # I add the values and store the answer in total.
-        total = total + mark
-    # I divide the total by the number of subjects to get the percentage.
+    total = sum(marks)
     percentage = total / len(marks)
-    # I return the result so it can be used by the calling code.
-    return (total, percentage)
+    return total, percentage
 
-# I select the grade by comparing the percentage with each cutoff.
+
 def assign_grade(percentage):
     if percentage >= 90:
-        return 'A'
-    if percentage >= 75:
-        return 'B'
-    if percentage >= 50:
-        return 'C'
-    return 'Fail'
+        return "A"
+    elif percentage >= 75:
+        return "B"
+    elif percentage >= 50:
+        return "C"
+    else:
+        return "Fail"
 
-# I call the required functions here in the correct order.
+
+# I combine the input, calculation and grading functions here.
 def main():
-    # I use try-except so the expected error does not stop the example.
     try:
         marks = read_marks()
         total, percentage = calculate(marks)
     except ValueError as error:
         print(error)
         return
-    grade = assign_grade(percentage)
-    print(f'Total: {total:g}/300\nPercentage: {percentage:.2f}%\nGrade: {grade}')
 
-# I call main() to start the complete program.
+    grade = assign_grade(percentage)
+    print(f"Total: {total:g}/300")
+    print(f"Percentage: {percentage:.2f}%")
+    print("Grade:", grade)
+
+
 main()
