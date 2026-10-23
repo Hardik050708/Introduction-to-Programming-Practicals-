@@ -1,0 +1,12 @@
+# Practical 6 - Question 10: Reshaping arrays
+
+# Every reshaped array must keep the original element count.
+import numpy as np
+values = np.arange(1, 13)
+print("1D:", values)
+print("3x4:\n", values.reshape(3, 4))
+print("2x6:\n", values.reshape(2, 6))
+try:
+    print(values.reshape(5, 3))
+except ValueError:
+    print("Cannot reshape: the number of elements must stay 12.")

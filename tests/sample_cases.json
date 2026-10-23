@@ -1,0 +1,1649 @@
+[
+  {
+    "file": "practical_01/implementation/practical_01_ques_01.py",
+    "input": "",
+    "expected": [
+      "Asha 18 91.5 Pune",
+      "SyntaxError"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_02.py",
+    "input": "",
+    "expected": [
+      "<class 'int'>",
+      "<class 'str'>",
+      "<class 'float'>"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_03.py",
+    "input": "",
+    "expected": [
+      "Reassignment is allowed: 3.14"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_04.py",
+    "input": "18\n91.5\nPython\nfalse\n",
+    "expected": [
+      "False",
+      "bool"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_05.py",
+    "input": "18\n90.5\n",
+    "expected": [
+      "Age next year: 19",
+      "95.5"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_06.py",
+    "input": "",
+    "expected": [
+      "7.5",
+      "Numeric addition: 7",
+      "String joining: 52"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_07.py",
+    "input": "",
+    "expected": [
+      "Shared mutable list: [10, 20] [10, 20]"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_08.py",
+    "input": "",
+    "expected": [
+      "Third variable: 20 10",
+      "Tuple unpacking: 20 10"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_09.py",
+    "input": "12\n2.5\n",
+    "expected": [
+      "Sum: 14.5"
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_10.py",
+    "input": "19\n75\n",
+    "expected": [
+      "Both conditions are satisfied."
+    ]
+  },
+  {
+    "file": "practical_01/implementation/practical_01_ques_11.py",
+    "input": "37\n",
+    "expected": [
+      "37.00 C = 98.60 F"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_01.py",
+    "input": "",
+    "expected": [
+      "Python"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_02.py",
+    "input": "",
+    "expected": [
+      "23"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "95"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "True"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "12.5",
+      "Truncated integer: 12"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_06.py",
+    "input": "",
+    "expected": [
+      "<class 'str'>"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "25"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "20 10"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "True"
+    ]
+  },
+  {
+    "file": "practical_01/practice/practical_01_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "98.6"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_01.py",
+    "input": "Asha\n18\n",
+    "expected": [
+      "Name: Asha Age: 18"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_02.py",
+    "input": "10\n2\n",
+    "expected": [
+      "Addition: 12.0",
+      "Division: 5.0"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_03.py",
+    "input": "2 4 6\n",
+    "expected": [
+      "Sum: 12.0",
+      "Average: 4.0",
+      "18.0"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_04.py",
+    "input": "",
+    "expected": [
+      "= 20",
+      " = 30",
+      "= 26.0"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_05.py",
+    "input": "10000\n",
+    "expected": [
+      "Net: INR 13000.00"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_06.py",
+    "input": "4\n3\n2\n",
+    "expected": [
+      "Rectangle area: 12.00",
+      "Circle area: 12.57"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_07.py",
+    "input": "2\n0\n830\n",
+    "expected": [
+      "2000.00 m",
+      "32.00 F",
+      "USD 10.00"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_08.py",
+    "input": "2 3 4\n",
+    "expected": [
+      "Sum: 9",
+      "Product: 24"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_09.py",
+    "input": "90 80 70\n",
+    "expected": [
+      "Percentage: 80.00%",
+      "Grade: B"
+    ]
+  },
+  {
+    "file": "practical_02/implementation/practical_02_ques_10.py",
+    "input": "",
+    "expected": [
+      "Division prevented",
+      "Correct addition: 15"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_01.py",
+    "input": "150\n",
+    "expected": [
+      "Total: INR 450.00"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_02.py",
+    "input": "180\n3\n",
+    "expected": [
+      "60.00 km/h"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "GST: INR 405.00",
+      "Net bill: INR 2655.00"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "Float division: 6.25",
+      "Floor division: 6",
+      "Remainder: 1"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "INR 1680.00"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_06.py",
+    "input": "78 91 85 67 95\n",
+    "expected": [
+      "Topper marks: 95.0",
+      "position(s): [5]"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "Monthly EMI: INR 25833.33"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "actual: 47.0",
+      "actual: 16"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "Each friend: INR 486.00"
+    ]
+  },
+  {
+    "file": "practical_02/practice/practical_02_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "BMI: 23.51",
+      "Category: Normal"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_01.py",
+    "input": "5\n",
+    "expected": [
+      "Positive"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_02.py",
+    "input": "7\n",
+    "expected": [
+      "Odd"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_03.py",
+    "input": "90\n",
+    "expected": [
+      "Grade: A"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_04.py",
+    "input": "18\nIndian\n",
+    "expected": [
+      "Eligible to vote"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_05.py",
+    "input": "5 5 2\n",
+    "expected": [
+      "Largest: 5.0"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_06.py",
+    "input": "2000\n",
+    "expected": [
+      "Leap year"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_07.py",
+    "input": "10\n2\n/\n",
+    "expected": [
+      "Result: 5.0"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_08.py",
+    "input": "2000\n",
+    "expected": [
+      "Final amount: INR 1600.00"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_09.py",
+    "input": "3 3 3\n",
+    "expected": [
+      "Equilateral"
+    ]
+  },
+  {
+    "file": "practical_03/implementation/practical_03_ques_10.py",
+    "input": "1\n4\n",
+    "expected": [
+      "Even"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_01.py",
+    "input": "7\n75\n",
+    "expected": [
+      "Eligible"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_02.py",
+    "input": "30000\n701\n",
+    "expected": [
+      "Approved"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_03.py",
+    "input": "6000\n",
+    "expected": [
+      "Final bill: INR 5100.00"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_04.py",
+    "input": "18\nIndian\n",
+    "expected": [
+      "Eligible to vote"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_05.py",
+    "input": "10\n",
+    "expected": [
+      "Parking bill: INR 100.00"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_06.py",
+    "input": "60\n",
+    "expected": [
+      "Senior Citizen"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_07.py",
+    "input": "86\n299999\n",
+    "expected": [
+      "Eligible"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_08.py",
+    "input": "299\n",
+    "expected": [
+      "2 GB/day"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_09.py",
+    "input": "130\n",
+    "expected": [
+      "High Stage 1"
+    ]
+  },
+  {
+    "file": "practical_03/practice/practical_03_practice_ques_10.py",
+    "input": "10\n30000\n",
+    "expected": [
+      "Bonus: INR 6000.00"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_01.py",
+    "input": "",
+    "expected": [
+      "1 2 3 4 5 6 7 8 9 10",
+      "2 4 6 8 10"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_02.py",
+    "input": "",
+    "expected": [
+      "1 2 3 4 5 6 7 8 9 10"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_03.py",
+    "input": "3\n2\n4\n6\n",
+    "expected": [
+      "Sum: 12.0",
+      "Average: 4.0"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_04.py",
+    "input": "5\n",
+    "expected": [
+      "For factorial: 120",
+      "While factorial: 120"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_05.py",
+    "input": "7\n",
+    "expected": [
+      "7 x 10 = 70"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_06.py",
+    "input": "121\n",
+    "expected": [
+      "Reverse: 121",
+      "Palindrome"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_07.py",
+    "input": "12034\n",
+    "expected": [
+      "Total digits: 5",
+      "Even digits: 3",
+      "Odd digits: 2"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_08.py",
+    "input": "29\n",
+    "expected": [
+      "Prime"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_09.py",
+    "input": "7\n",
+    "expected": [
+      "0 1 1 2 3 5 8"
+    ]
+  },
+  {
+    "file": "practical_04/implementation/practical_04_ques_10.py",
+    "input": "3\n",
+    "expected": [
+      "***",
+      "1 2 3"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_01.py",
+    "input": "",
+    "expected": [
+      "10"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_02.py",
+    "input": "",
+    "expected": [
+      "1\n2\n3\n4\n5"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "*\n*\n*"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "0\n1\n1\n2\n3"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "1\n2\n3\n4\n5"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_06.py",
+    "input": "",
+    "expected": [
+      "2\n4\n6\n8\n10"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "24"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "120"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "0 1 1 2 3"
+    ]
+  },
+  {
+    "file": "practical_04/practice/practical_04_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "*\n**\n***"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_01.py",
+    "input": "",
+    "expected": [
+      "1\n2\n3\n4"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_02.py",
+    "input": "",
+    "expected": [
+      "1 2 4 5 7 8 10"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_03.py",
+    "input": "",
+    "expected": [
+      "1 2 3 4",
+      "1 2 3 4 6 7 8 9 10"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_04.py",
+    "input": "4 7 7 9\n7\n",
+    "expected": [
+      "Position: 2"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_05.py",
+    "input": "7\n",
+    "expected": [
+      "First divisible number: 7"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_06.py",
+    "input": "-2 0 3 4\n",
+    "expected": [
+      "3.0\n4.0"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_07.py",
+    "input": "5\n-2\n3\n0\n",
+    "expected": [
+      "Sum: 8.0"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_08.py",
+    "input": "wrong\npython123\n",
+    "expected": [
+      "Access granted"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_09.py",
+    "input": "",
+    "expected": [
+      "1\n2\n3\n4\n5"
+    ]
+  },
+  {
+    "file": "practical_05/implementation/practical_05_ques_10.py",
+    "input": "5\n",
+    "expected": [
+      "1 3 5"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_01.py",
+    "input": "90 40 14 80\n",
+    "expected": [
+      "Scan stopped at row 3"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_02.py",
+    "input": "S101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\nS101\nS102\n",
+    "expected": [
+      "Unique attendance: 2"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_03.py",
+    "input": "stable stable critical stable\n",
+    "expected": [
+      "Emergency at patient 3"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_04.py",
+    "input": "101 -1 202\n",
+    "expected": [
+      "Scanned: 101",
+      "Scanned: 202"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_05.py",
+    "input": "000000\n123456\n",
+    "expected": [
+      "Unlocked"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_06.py",
+    "input": "20 -1 30\n",
+    "expected": [
+      "Average: 25.0"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "not implemented yet"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_08.py",
+    "input": "ok\ndefective\n",
+    "expected": [
+      "Inspection stopped at product 2"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "Analyzing day 30"
+    ]
+  },
+  {
+    "file": "practical_05/practice/practical_05_practice_ques_10.py",
+    "input": "10.0.0.1\n10.0.0.1 10.0.0.2 10.0.0.1 10.0.0.1\n",
+    "expected": [
+      "Scanner halted"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_01.py",
+    "input": "",
+    "expected": [
+      "column 3: 6"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_02.py",
+    "input": "",
+    "expected": [
+      "1 2 3",
+      "1 4 7"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_03.py",
+    "input": "2\n2\n1 2\n3 4\n",
+    "expected": [
+      "Row 1 sum: 3.0",
+      "Column 2 sum: 6.0"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_04.py",
+    "input": "2\n2\n1 2\n3 4\n5 6\n7 8\n",
+    "expected": [
+      "[6.0, 8.0]",
+      "[10.0, 12.0]"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_05.py",
+    "input": "2\n3\n1 2 3\n4 5 6\n",
+    "expected": [
+      "[[1.0, 4.0], [2.0, 5.0], [3.0, 6.0]]"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_06.py",
+    "input": "",
+    "expected": [
+      "Shape: (2, 3)",
+      "Shape: (3, 2)"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_07.py",
+    "input": "",
+    "expected": [
+      "Element [1, 2]: 6",
+      "[3 6 9]"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_08.py",
+    "input": "",
+    "expected": [
+      "[5 7 9]",
+      "[ 4 10 18]"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_09.py",
+    "input": "",
+    "expected": [
+      "Mean: 30.0",
+      "14.1421"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_10.py",
+    "input": "",
+    "expected": [
+      "Cannot reshape"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_11.py",
+    "input": "",
+    "expected": [
+      "Products match: True",
+      "[[19, 22], [43, 50]]"
+    ]
+  },
+  {
+    "file": "practical_06/implementation/practical_06_ques_12.py",
+    "input": "",
+    "expected": [
+      "Highest mark: 95",
+      "Lowest mark: 60",
+      "Top student (1-based): 2"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_01.py",
+    "input": "",
+    "expected": [
+      "Highest moisture day(s): [7]",
+      "Lowest moisture day(s): [1]"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_02.py",
+    "input": "",
+    "expected": [
+      "Critical patient index (0-based): 2",
+      "Patient number (1-based): 3"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "Busiest room(s): [2 5]",
+      "Total free slots: 13",
+      "Occupancy: 67.50%"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "135 120 115 105  95  85"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "Busiest shelf: 4",
+      "Maximum quantity: 30"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_06.py",
+    "input": "",
+    "expected": [
+      "Peak traffic count: 250",
+      "Least busy junction: 1"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "Shape: (12, 5)"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "Store 1 weighted revenue: 2000",
+      "Store 7 weighted revenue: 1185"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "Change per district:",
+      "Wetter half:"
+    ]
+  },
+  {
+    "file": "practical_06/practice/practical_06_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "Central 4x4:",
+      "Average elevation:"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_01.py",
+    "input": "",
+    "expected": [
+      "<class 'list'>",
+      "<class 'tuple'>"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_02.py",
+    "input": "",
+    "expected": [
+      "First: 10 10",
+      "Middle: c c"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_03.py",
+    "input": "",
+    "expected": [
+      "[1, 3, 5]",
+      "(1, 3, 5)"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_04.py",
+    "input": "",
+    "expected": [
+      "Modified list: [10, 2, 3]",
+      "TypeError:"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_05.py",
+    "input": "",
+    "expected": [
+      "[10, 15, 20, 30, 40]"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_06.py",
+    "input": "",
+    "expected": [
+      "Popped: 40",
+      "Remaining: [10, 30]"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_07.py",
+    "input": "",
+    "expected": [
+      "Ascending: [1, 2, 3, 4]",
+      "Descending: [4, 3, 2, 1]"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_08.py",
+    "input": "",
+    "expected": [
+      "Count of 10: 2",
+      "Index of 20: 1"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_09.py",
+    "input": "",
+    "expected": [
+      "Middle element: 5",
+      "[4, 50, 6]"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_10.py",
+    "input": "",
+    "expected": [
+      "Modified list: [10, 2, 3]",
+      "Original tuple: (1, 2, 3)"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_11.py",
+    "input": "",
+    "expected": [
+      "Sum: 60"
+    ]
+  },
+  {
+    "file": "practical_07/implementation/practical_07_ques_12.py",
+    "input": "",
+    "expected": [
+      "Cart: ['Notebook', 'Pen']",
+      "Item count: 2"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_01.py",
+    "input": "",
+    "expected": [
+      "First: 1",
+      "Last: 9",
+      "Middle: 5"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_02.py",
+    "input": "",
+    "expected": [
+      "Third column: [3, 6, 9]"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_03.py",
+    "input": "",
+    "expected": [
+      "Bottom-right: 9 9"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_04.py",
+    "input": "",
+    "expected": [
+      "[[1, 2, 3], [4, 5, 6]]"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_05.py",
+    "input": "",
+    "expected": [
+      "[[1, 2], [4, 5]]"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_06.py",
+    "input": "",
+    "expected": [
+      "Element [1, 2]: 6"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_07.py",
+    "input": "",
+    "expected": [
+      "Last column: [3 6 9]",
+      "List column: [3, 6, 9]"
+    ]
+  },
+  {
+    "file": "practical_07/slicing/practical_07_slicing_ques_08.py",
+    "input": "",
+    "expected": [
+      " 6  7",
+      "10 11"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_01.py",
+    "input": "",
+    "expected": [
+      "Removed oldest: 1102",
+      "[1215, 1045"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_02.py",
+    "input": "",
+    "expected": [
+      "Checkpoint 10: x=55, y=65, altitude=240"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "Day 5: ['Dr M', 'Dr N', 'Dr Z']"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "'Levitating', 'Blinding Lights', 'Peaches'"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "(25, 12)"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_06.py",
+    "input": "",
+    "expected": [
+      "Overall highest: 95; average: 85.75"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "Sandwich: INR 80",
+      "Pasta Bowl: INR 150"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "Reverse route: [(18.5298, 73.8657)"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "Price: 245; position: 10",
+      "Lowest price slot: 3"
+    ]
+  },
+  {
+    "file": "practical_07/practice/practical_07_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "A101 count: 2",
+      "C302 index (0-based): 7",
+      "Repeated room IDs: ['A101', 'B201']"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_01.py",
+    "input": "",
+    "expected": [
+      "<class 'dict'>"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_02.py",
+    "input": "",
+    "expected": [
+      "Name: Asha",
+      "KeyError:"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_03.py",
+    "input": "",
+    "expected": [
+      "City: Unknown"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_04.py",
+    "input": "",
+    "expected": [
+      "'marks': 95",
+      "'city': 'Mumbai'"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_05.py",
+    "input": "",
+    "expected": [
+      "Removed marks: 92",
+      "Safe missing pop: Not found"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_06.py",
+    "input": "",
+    "expected": [
+      "name Asha",
+      "marks 92"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_07.py",
+    "input": "",
+    "expected": [
+      "Keys: ['name', 'age', 'marks']"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_08.py",
+    "input": "banana\n",
+    "expected": [
+      "'a': 3",
+      "'n': 2"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_09.py",
+    "input": "",
+    "expected": [
+      "S101 name: Asha",
+      "'marks': 90"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_10.py",
+    "input": "",
+    "expected": [
+      "{'a': 1, 'b': 20, 'c': 3}"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_11.py",
+    "input": "",
+    "expected": [
+      "By keys: {'Asha': 92",
+      "By values: {'Neha': 78"
+    ]
+  },
+  {
+    "file": "practical_08/implementation/practical_08_ques_12.py",
+    "input": "",
+    "expected": [
+      "Pen: 25",
+      "Pencil: 15"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_01.py",
+    "input": "",
+    "expected": [
+      "Present students: 4"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_02.py",
+    "input": "",
+    "expected": [
+      "Highest temperature: P002",
+      "'temp': 100.4"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "wind_speed 12"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "'Laptop': 10",
+      "'Printer': 5"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "'python': 2",
+      "'makes': 2"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_06.py",
+    "input": "",
+    "expected": [
+      "Asha"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "3"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "0"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "Ravi"
+    ]
+  },
+  {
+    "file": "practical_08/practice/practical_08_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "{'a': 1, 'b': 2, 'c': 3}"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_01.py",
+    "input": "",
+    "expected": [
+      "Welcome to Python programming!"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_02.py",
+    "input": "5\n3\n",
+    "expected": [
+      "Sum: 8.0"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_03.py",
+    "input": "5\n",
+    "expected": [
+      "Square: 25.0",
+      "Square plus one: 26.0"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_04.py",
+    "input": "",
+    "expected": [
+      "Hello Student",
+      "Welcome Asha"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_05.py",
+    "input": "",
+    "expected": [
+      "4 100 40 10",
+      "String len, max, min: 6 y P"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_06.py",
+    "input": "",
+    "expected": [
+      "sum=60, largest=30",
+      "sum=-16, largest=-2",
+      "sum=0, largest=None"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_07.py",
+    "input": "5\n",
+    "expected": [
+      "factorial(5)",
+      "Recursive: 120",
+      "Iterative: 120"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_08.py",
+    "input": "7\n",
+    "expected": [
+      "Recursive: [0, 1, 1, 2, 3, 5, 8]",
+      "Iterative: [0, 1, 1, 2, 3, 5, 8]"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_09.py",
+    "input": "1 2 3\n",
+    "expected": [
+      "Total: 6.0"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_10.py",
+    "input": "",
+    "expected": [
+      "Global after local change: 10",
+      "Global after global change: 30"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_11.py",
+    "input": "3\n5\n",
+    "expected": [
+      "Factorial: 120"
+    ]
+  },
+  {
+    "file": "practical_09/implementation/practical_09_ques_12.py",
+    "input": "90 80 70\n",
+    "expected": [
+      "Total: 240/300",
+      "Grade: B"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_01.py",
+    "input": "",
+    "expected": [
+      "Average drop: 4.80",
+      "Drop is within 5%"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_02.py",
+    "input": "",
+    "expected": [
+      "BMI: 23.51",
+      "Category: Normal"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "Digit sum: 27"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "Final bill: INR 2655.00"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "Cleaned: python makes ai easy",
+      "Word count: 4"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_06.py",
+    "input": "",
+    "expected": [
+      "8"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "Hello Student"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "24"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "8"
+    ]
+  },
+  {
+    "file": "practical_09/practice/practical_09_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "25"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_01.py",
+    "input": "",
+    "expected": [
+      "First: P",
+      "Last: g",
+      "Middle: o"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_02.py",
+    "input": "",
+    "expected": [
+      "First five: Pytho",
+      "Last four: ming",
+      "thonP"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_03.py",
+    "input": "",
+    "expected": [
+      "Reverse: gnimmargorPnohtyP"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_04.py",
+    "input": "",
+    "expected": [
+      "Corrected: Python"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_05.py",
+    "input": "Python programming\nPython\n",
+    "expected": [
+      "Present",
+      "Not present: False"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_06.py",
+    "input": "",
+    "expected": [
+      "find programming: 13",
+      "find missing: -1",
+      "index missing: ValueError"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_07.py",
+    "input": "",
+    "expected": [
+      "Character p: 3",
+      "Word python: 2"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_08.py",
+    "input": "",
+    "expected": [
+      "Upper: PYTHON MAKES PROGRAMMING EASY",
+      "Title: Python Makes Programming Easy"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_09.py",
+    "input": "",
+    "expected": [
+      "Updated: Python is powerful"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_10.py",
+    "input": "",
+    "expected": [
+      "Joined: Python-makes-coding-easy"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_11.py",
+    "input": "A man, a plan, a canal: Panama!\n",
+    "expected": [
+      "Palindrome"
+    ]
+  },
+  {
+    "file": "practical_10/implementation/practical_10_ques_12.py",
+    "input": "Python, python is fun!\n",
+    "expected": [
+      "Word count: 4",
+      "Most frequent word(s): ['python']",
+      "Frequency: 2"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_01.py",
+    "input": "",
+    "expected": [
+      "Joined: python_makes_nlp_powerful"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_02.py",
+    "input": "",
+    "expected": [
+      "Masked: STU2****1098"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_03.py",
+    "input": "",
+    "expected": [
+      "Altitude: 250",
+      "Speed: 45",
+      "Battery: 78"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_04.py",
+    "input": "",
+    "expected": [
+      "Uppercase: True",
+      "Special character: True",
+      "Valid password: True"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_05.py",
+    "input": "",
+    "expected": [
+      "Fever occurrences: 3",
+      "Unique symptom count: 4",
+      "Most repeated symptom: fever"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_06.py",
+    "input": "",
+    "expected": [
+      "toPo"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_07.py",
+    "input": "",
+    "expected": [
+      "DATA_SCIENCE"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_08.py",
+    "input": "",
+    "expected": [
+      "NLP-DL-ML-AI"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_09.py",
+    "input": "",
+    "expected": [
+      "Programming"
+    ]
+  },
+  {
+    "file": "practical_10/practice/practical_10_practice_ques_10.py",
+    "input": "",
+    "expected": [
+      "Python-makes-coding-easy"
+    ]
+  }
+]
